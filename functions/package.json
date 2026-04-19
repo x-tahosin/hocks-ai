@@ -1,0 +1,24 @@
+{
+    "name": "functions",
+    "description": "HOCKS AI Firebase Cloud Functions",
+    "scripts": {
+        "serve": "firebase emulators:start --only functions",
+        "shell": "firebase functions:shell",
+        "start": "npm run shell",
+        "deploy": "firebase deploy --only functions",
+        "logs": "firebase functions:log"
+    },
+    "engines": {
+        "node": "20"
+    },
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "firebase-admin": "^13.0.0",
+        "firebase-functions": "^6.3.0",
+        "@google/generative-ai": "^0.21.0",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {},
+    "private": true
+}
