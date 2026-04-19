@@ -52,19 +52,19 @@
 
 ```
 +-----------------------------------------------------+
-|                  Client (Browser)                    |
-|          React SPA  -  Glassmorphism Dark UI         |
+|                  Client (Browser)                   |
+|          React SPA  -  Glassmorphism Dark UI        |
 +-----------------------------------------------------+
                           |
                           v
 +-----------------------------------------------------+
-|                  Firebase Hosting                    |
-|            hocks.app / hocks-ai.web.app              |
+|                  Firebase Hosting                   |
+|            hocks.app / hocks-ai.web.app             |
 +-----------------------------------------------------+
                           |
                           v
 +-----------------------------------------------------+
-|             Firebase Cloud Functions                 |
+|             Firebase Cloud Functions                |
 |                                                     |
 |  +--------------+ +-------------+ +---------------+ |
 |  | streamChat   | | analyzeImg  | | generateCode  | |
@@ -73,7 +73,7 @@
 |         |               |               |           |
 |         v               v               v           |
 |  +-----------------------------------------------+  |
-|  |        Google Gemini API (AI Engine)           |  |
+|  |        Google Gemini API (AI Engine)          |  |
 |  +-----------------------------------------------+  |
 +-----------------------------------------------------+
                           |
