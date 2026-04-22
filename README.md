@@ -9,6 +9,13 @@
 [![Gemini](https://img.shields.io/badge/Google_Gemini-AI_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev)
 [![License](https://img.shields.io/badge/License-MIT-A855F7?style=for-the-badge)](LICENSE)
 
+
+## 📖 Deep Dive
+
+This project is one of 5 AI apps I shipped on Google's Gemini free tier. I wrote up the exact architecture, cost breakdown, and what breaks first in production:
+
+**[$0/Month, 5 AI Apps, All on Gemini: Here's Exactly What the Free Tier Gives You (and What Breaks First)](https://dev.to/tahosin/0month-5-ai-apps-all-on-gemini-heres-exactly-what-the-free-tier-gives-you-and-what-breaks-58fl)** — on Dev.to
+
 ---
 
 *A sleek, production-ready AI platform featuring real-time streaming chat, image analysis, video intelligence, and instant website generation — all powered by cutting-edge Gemini models.*
